@@ -23,6 +23,8 @@ export default {
   ** Global CSS
   */
   css: [
+    "~assets/css/tailwind.css",
+    "@/assets/css/main.scss",
   ],
   /*
   ** Plugins to load before mounting the App
@@ -53,10 +55,18 @@ export default {
   ** Build configuration
   */
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: "./tailwind.config.js"
+      }
+    },
     /*
     ** You can extend webpack config here
     */
     extend (config, ctx) {
     }
-  }
+  },
+  env: {
+    gistAPI: "https://api.github.com/users/",
+  },
 }

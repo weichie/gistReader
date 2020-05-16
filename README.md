@@ -10,6 +10,7 @@ This project is built with NuxtJS and pulls the public data from a Github User. 
 - [Github Gist](https://developer.github.com/v3/gists/)
 - [TailwindCSS](https://tailwindcss.com/)
 - `node-sass` and `sass-loader` for sass support
+- `vue-code-highlight` for code highlighting ([npm package](https://www.npmjs.com/package/vue-code-highlight))
 
 
 ## Build Setup

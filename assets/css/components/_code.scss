@@ -1,0 +1,15 @@
+pre {
+  display: block;
+  width: 100%;
+  max-width: 850px;
+  white-space: pre;
+
+  code {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #F0F0F0;
+    font-size: 13px;
+    font-family: monospace,monospace;
+  }
+}

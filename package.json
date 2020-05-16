@@ -1,0 +1,20 @@
+{
+  "name": "gistReader",
+  "version": "1.0.0",
+  "description": "Read all of your gists (or someone elses) in a clean overview, with the possibility to search specific gists or filter them",
+  "author": "weichie",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
